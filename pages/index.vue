@@ -1,5 +1,9 @@
   <script setup>
   import { useNuxtApp } from '#app';
+import Addition from '~/components/Addition.vue';
+import Alert from '~/components/Alert.vue';
+import Color from '~/components/Color.vue';
+import ContentDoc from '~/content/index.md '  
 
   const response = await $fetch('/api/hello');
   console.log("response"+ response)
