@@ -1,6 +1,7 @@
 <template>
     <div class="text-red-500 bg-blue-200">
-        Header
+
+        <NuxtLink to="/" class="text-yello-400 underline-offset-2 mx-4 font-semibold ">Home</NuxtLink>
 
         <NuxtLink to="/my-profile" class="text-yello-400 underline-offset-2 mx-4 font-semibold ">My-profile</NuxtLink>
 
