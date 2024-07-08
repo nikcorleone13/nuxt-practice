@@ -7,7 +7,7 @@ export default defineNuxtConfig({
 	},
 
 	css: ["~/assets/main.scss"],
-	modules:["@nuxt/content"],
+	modules:["@nuxt/content", "@nuxt/image"],
 
 	postcss: {
 		plugins: {
